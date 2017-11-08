@@ -6,6 +6,8 @@ public class Produto extends SugarRecord {
     private String nome;
     private boolean ativo;
 
+    String teste;
+
     //Construtor obrigatorio por causa do ORM
     public Produto(){}
 
